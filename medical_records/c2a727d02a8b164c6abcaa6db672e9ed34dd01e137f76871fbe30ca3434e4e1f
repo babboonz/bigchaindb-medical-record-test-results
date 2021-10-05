@@ -1,0 +1,67 @@
+{
+	'asset': {
+		'data': {
+			'link': 'c5d43c82e633a5353f569cb22b698d48b5d642aa0bfe6b383d028231ee44221a',
+			'ns': 'Jogi O_pasien_20112313', 
+			'patient': {
+				'alamat': 'Jl. Semarang Blok F No. 329 Kel. Jaka Mulya, Kota Bekasi',
+				'gol_darah': 'A+',
+				'id_dokter': '34bq8uuKzcGvYE89JDZQSzmkTayxPDPvoJSNaLPtbMty',
+				'jenis_kelamin': 'laki-laki', 
+				'nama': 'Jogi O', 
+				'nama_dokter': 'Momo', 
+				'nik_id': '20112313', 
+				'ttl': 'Bekasi, 1999-10-01'
+			}
+		}
+	}, 
+	'id': 'c2a727d02a8b164c6abcaa6db672e9ed34dd01e137f76871fbe30ca3434e4e1f', 
+	'inputs': [{
+		'fulfillment': 'pGSAIB6jf6VWgRakQYR_YUFvYQpmqpsJNGtxrgak8iTYw3YWgUC1ROUY9ntEf6Hb-98tPv9r56q3hc-ateXab4_svpoEkCLIwqszPlVM083t7Mmh2GRanek1Z2JsJKLmbujUhXYN', 
+		'fulfills': None, 
+		'owners_before': ['34bq8uuKzcGvYE89JDZQSzmkTayxPDPvoJSNaLPtbMty']
+	}], 
+	'metadata': {
+		'can_link': ['34bq8uuKzcGvYE89JDZQSzmkTayxPDPvoJSNaLPtbMty'], 
+		'patient_meta': {
+			'anamnesis': {
+				'keluhan': 'Demam', 
+				'riwayat_penyakit_individu': 'Tidak Ada', 
+				'riwayat_penyakit_keluarga': 'Tidak Ada'
+			}, 
+			'hasil_diagnosa': {
+				'hasil_fisik': 'Suhu Tubuh 37 celcius', 
+				'hasil_kerja': '', 
+				'hasil_organ': 'Nafas terengah-engah'
+			}, 
+			'rencana': {
+				'rencana_comment': '', 
+				'rencana_hasil': 'Pengurangan Suhu Tubuh', 
+				'rencana_kegiatan': 'Pemberian Obat', 
+				'rencana_waktu': 'Selasa, 5 Oktober 2021'
+			}, 
+			'treatment': {
+				'comment_treatment': 'Pengobatan dilanjutkan', 
+				'diagnosa_treatment': 'Suhu Tubuh sedikit berkurang', 
+				'faktor_minus_treatment': '-', 
+				'faktor_plus_treatment': 'Istirahat di Rumah',
+				'tanggal_treatment': '2021-10-05', 
+				'tindakan_treatment': 'Pemberian Obat'
+			}
+		}, 
+		'timestamp': '05/10/2021 12:55:06'
+	}, 
+	'operation': 'CREATE', 
+	'outputs': [{
+		'amount': '1', 
+		'condition': {
+			'details': {
+				'public_key': '34bq8uuKzcGvYE89JDZQSzmkTayxPDPvoJSNaLPtbMty', 
+				'type': 'ed25519-sha-256'
+			}, 
+			'uri': 'ni:///sha-256;D447yng4_adKVVW6tLSji-G-QNOt_teWUuOg6TfPdKI?fpt=ed25519-sha-256&cost=131072'
+		}, 
+		'public_keys': ['34bq8uuKzcGvYE89JDZQSzmkTayxPDPvoJSNaLPtbMty']
+	}], 
+	'version': '2.0'
+}
