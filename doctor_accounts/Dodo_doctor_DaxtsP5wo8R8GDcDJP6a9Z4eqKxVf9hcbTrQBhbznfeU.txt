@@ -1,0 +1,1 @@
+{"user_rbac_id": "e09534bb2cc2c6923fec0d4f081c97e4b57cad18bcc7be61c41a3675b23217bc", "name": "Dodo", "email": "dodo@gmail.com", "password": "dood", "public_key": "DaxtsP5wo8R8GDcDJP6a9Z4eqKxVf9hcbTrQBhbznfeU", "private_key": "nrV6cvxKRMNJZv8GHE9F7Pwjwmf8Q1xUGLFQyyV3Fht", "role": "doctor", "hospital": "RS Bersama Node Tiga"}

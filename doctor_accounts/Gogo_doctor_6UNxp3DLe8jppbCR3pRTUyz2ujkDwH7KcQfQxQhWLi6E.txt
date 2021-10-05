@@ -1,0 +1,1 @@
+{"user_rbac_id": "5a1931c7ebbe0c8d7be64387290b676bdef344815a8c6e94a41f56cd7bd487d2", "name": "Gogo", "email": "gogo@gmail.com", "password": "gogo", "public_key": "6UNxp3DLe8jppbCR3pRTUyz2ujkDwH7KcQfQxQhWLi6E", "private_key": "HkGtAoSvECFAyNTjkF1LnwQfV4DX61aFkAMTGwQRuGNv", "role": "doctor", "hospital": "RS Bersama Node Satu"}
