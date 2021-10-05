@@ -1,0 +1,56 @@
+=============================================================================
+The Output for invalid private key input to initiate a BigchainDB Transaction
+=============================================================================
+
+Traceback (most recent call last):
+  File "/home/jogi/.local/lib/python3.8/site-packages/bigchaindb_driver/common/transaction.py", line 891, in _sign_simple_signature_fulfillment
+    base58.b58decode(key_pairs[public_key].encode()))
+KeyError: '3qAt7ASZMnFPMNGBGmv4HxtnJ8Xq16aVYsNGAboHJG8z'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jogi/.local/lib/python3.8/site-packages/bigchaindb_driver/offchain.py", line 350, in fulfill_transaction
+    signed_transaction = transaction_obj.sign(private_keys)
+  File "/home/jogi/.local/lib/python3.8/site-packages/bigchaindb_driver/common/transaction.py", line 833, in sign
+    self.inputs[i] = self._sign_input(input_, tx_serialized, key_pairs)
+  File "/home/jogi/.local/lib/python3.8/site-packages/bigchaindb_driver/common/transaction.py", line 856, in _sign_input
+    return cls._sign_simple_signature_fulfillment(input_, message,
+  File "/home/jogi/.local/lib/python3.8/site-packages/bigchaindb_driver/common/transaction.py", line 893, in _sign_simple_signature_fulfillment
+    raise KeypairMismatchException('Public key {} is not a pair to '
+bigchaindb_driver.common.exceptions.KeypairMismatchException: Public key 3qAt7ASZMnFPMNGBGmv4HxtnJ8Xq16aVYsNGAboHJG8z is not a pair to any of the private keys
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jogi/medical-app/application/app.py", line 190, in add_hospital
+    hospital_instance_rbac = createTypeInstance(namespace, admin_keys, 'hospital', hospital_type_id, user_to_mongo)
+  File "/home/jogi/medical-app/application/rbac_methods.py", line 85, in createTypeInstance
+    tx = create_transaction(keypair, asset, instanceMetadata)
+  File "/home/jogi/medical-app/application/bdb_transaction.py", line 15, in create_transaction
+    fulfilled_tx = bdb.transactions.fulfill(prepared_creation_tx, priv_key)
+  File "/home/jogi/.local/lib/python3.8/site-packages/bigchaindb_driver/driver.py", line 276, in fulfill
+    return fulfill_transaction(transaction, private_keys=private_keys)
+  File "/home/jogi/.local/lib/python3.8/site-packages/bigchaindb_driver/offchain.py", line 352, in fulfill_transaction
+    raise MissingPrivateKeyError('A private key is missing!') from exc
+bigchaindb_driver.exceptions.MissingPrivateKeyError: A private key is missing!
