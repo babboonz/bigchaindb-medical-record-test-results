@@ -1,216 +1,214 @@
-jogi@jogi-VirtualBox:~/medical-app/application$ /bin/python3 /home/jogi/medical-app/application/rbac_setup.py
 Admin Group Detail: 
 {
-  'asset': {
-    'data': {
-      'name': 'admin',
-      'ns': 'medical-app.admin'
-    }
-  }, 
-  'id': 'fce54f5051e5c91c7d9ba00ce08cba9619f44dcd97406e856e5cc53361edf3c2', 
-  'inputs': [{
-    'fulfillment': 'pGSAICSNPXKe2icfK2RndHafdbPa6YXlBTSis69ddHK5FtWagUARHpCAFzabC0RB1KK6xMBdgMprfjptkWaEdbVwHAQPU3nDgBl8WNZS80Vr2rz8Ws-k0wrOCuYFqjP0hYZbQgUM', 
-    'fulfills': None, 
-    'owners_before': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'metadata': {
-    'can_link': '3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq'
-  }, 
-  'operation': 'CREATE', 
-  'outputs': [{
-    'amount': '1', 
-    'condition': {
-      'details': {
-        'public_key': '3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq', 
-        'type': 'ed25519-sha-256'
-      }, 
-      'uri': 'ni:///sha-256;SVsMJvDuKu017c7E_ffP8Ou8qdoUcUcd1Qk7Q5M2FDU?fpt=ed25519-sha-256&cost=131072'
+    'asset': {
+        'data': {
+            'name': 'admin', 
+            'ns': 'medical-app.admin'
+        }
     }, 
-    'public_keys': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'version': '2.0'
+    'id': '920b3f685680bd3aeac4ad37e671665b8d184827b64f5cb6a3df914e1b591040', 
+    'inputs': [{
+        'fulfillment': 'pGSAIHWWkrXEU9gQOmV_v5PJdY0n55RRHpmv8ho3cJ6mBzr-gUCoopDGWsfAUX877Z_aAsNCaG1ZOEGJtaJ4vmJGYoeBFu0BnRRmJDRVOQXK24b4SVAN2jgV_MgvI7H0xFTDTxoJ', 
+        'fulfills': None, 
+        'owners_before': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'metadata': {
+        'can_link': '8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7'
+    }, 
+    'operation': 'CREATE', 
+    'outputs': [{
+        'amount': '1', 
+        'condition': {
+            'details': {
+                'public_key': '8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7', 
+                'type': 'ed25519-sha-256'
+            }, 
+            'uri': 'ni:///sha-256;HU8rLKZ7e3mhWl6L8G_Vm5PAkscmHmJ9LzthcVY4dcA?fpt=ed25519-sha-256&cost=131072'
+        }, 
+        'public_keys': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'version': '2.0'
 }
 =============================
-Admin Group Id: fce54f5051e5c91c7d9ba00ce08cba9619f44dcd97406e856e5cc53361edf3c2
+Admin Group Id: 920b3f685680bd3aeac4ad37e671665b8d184827b64f5cb6a3df914e1b591040
 =============================
 Admin User Detail: 
 {
-  'asset': {
-    'data': {
-      'createdBy': '3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq', 
-      'keyword': 'UserAsset', 
-      'link': 'fce54f5051e5c91c7d9ba00ce08cba9619f44dcd97406e856e5cc53361edf3c2', 
-      'ns': 'medical-app.admin', 
-      'type': 'admin'
-    }
-  }, 
-  'id': '8355bf6634c604111238123fb9d3ea23c2f87e7eeae029c40369c9cd82b3cb32', 
-  'inputs': [{
-    'fulfillment': 'pGSAICSNPXKe2icfK2RndHafdbPa6YXlBTSis69ddHK5FtWagUDM3YZx7Hqm7NiUYaZg_jpKaDJck5mDTLXV69R-8bRRJZIlYeYq-rN-owp34NnGP13DkzSn1alQNAS7zyXDrIEN', 
-    'fulfills': None, 
-    'owners_before': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'metadata': {
-    'event': 'User Added', 
-    'eventData': {
-      'userType': 'admin'
+    'asset': {
+        'data': {
+            'createdBy': '8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7', 
+            'keyword': 'UserAsset', 
+            'link': '920b3f685680bd3aeac4ad37e671665b8d184827b64f5cb6a3df914e1b591040', 
+            'ns': 'medical-app.admin', 'type': 'admin'
+        }
     }, 
-    'publicKey': '3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq', 
-    'timestamp': '08/10/2021 13:27:42'
-  }, 
-  'operation': 'CREATE', 
-  'outputs': [{
-    'amount': '1', 
-    'condition': {
-      'details': {
-        'public_key': '3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq', 
-        'type': 'ed25519-sha-256'
-      }, 
-      'uri': 'ni:///sha-256;SVsMJvDuKu017c7E_ffP8Ou8qdoUcUcd1Qk7Q5M2FDU?fpt=ed25519-sha-256&cost=131072'
+    'id': '3b2123910aa95c66dec7ec75808ef4e772564a49f3383b9822b40348c52cf8eb', 
+    'inputs': [{
+        'fulfillment': 'pGSAIHWWkrXEU9gQOmV_v5PJdY0n55RRHpmv8ho3cJ6mBzr-gUCzJpZelnHn3u8-69t7g8d3ttD6fuJBvFDiiHQSW28jjM9YbeyZUda4wKAJGVzhHW4dk39HFzIDHpdkp_85qQYO', 
+        'fulfills': None, 
+        'owners_before': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'metadata': {
+        'event': 'User Added', 
+        'eventData': {
+            'userType': 'admin'
+        }, 
+        'publicKey': '8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7', 
+        'timestamp': '08/10/2021 17:43:01'
     }, 
-    'public_keys': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'version': '2.0'
+    'operation': 'CREATE', 
+    'outputs': [{
+        'amount': '1', 
+        'condition': {
+            'details': {
+                'public_key': '8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7', 
+                'type': 'ed25519-sha-256'
+            }, 
+            'uri': 'ni:///sha-256;HU8rLKZ7e3mhWl6L8G_Vm5PAkscmHmJ9LzthcVY4dcA?fpt=ed25519-sha-256&cost=131072'
+        }, 
+        'public_keys': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'version': '2.0'
 }
 =============================
-Admin User Id: 8355bf6634c604111238123fb9d3ea23c2f87e7eeae029c40369c9cd82b3cb32
+Admin User Id: 3b2123910aa95c66dec7ec75808ef4e772564a49f3383b9822b40348c52cf8eb
 =============================
 App Detail: 
 {
-  'asset': {
-    'data': {
-      'name': 'medical-app', 
-      'ns': 'medical-app'
-    }
-  }, 
-  'id': '18115799077d2455c7e18ef3139cc5f99b8b3b11b4a12b4b38b1e32331862da6', 
-  'inputs': [{
-    'fulfillment': 'pGSAICSNPXKe2icfK2RndHafdbPa6YXlBTSis69ddHK5FtWagUD8ZATUFsdGCEL6cJbrGvKgsaAoC2eUyTLLEOnmFCKnclLgwq9MsLnIWDF56DdK2qbzuX2N_mv6lvrkLaE45_0B', 
-    'fulfills': None, 
-    'owners_before': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'metadata': {
-    'can_link': 'fce54f5051e5c91c7d9ba00ce08cba9619f44dcd97406e856e5cc53361edf3c2'
-  }, 
-  'operation': 'CREATE', 
-  'outputs': [{
-    'amount': '1', 
-    'condition': {
-      'details': {
-        'public_key': '3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq', 
-        'type': 'ed25519-sha-256'
-      }, 
-      'uri': 'ni:///sha-256;SVsMJvDuKu017c7E_ffP8Ou8qdoUcUcd1Qk7Q5M2FDU?fpt=ed25519-sha-256&cost=131072'
+    'asset': {
+        'data': {
+            'name': 'medical-app', 
+            'ns': 'medical-app'
+        }
     }, 
-    'public_keys': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'version': '2.0'
+    'id': 'c06d30009cf71102c7d468f39dc0cfd4f0fb5f9dfa3d9bec8ed1a42a80d2a976', 
+    'inputs': [{
+        'fulfillment': 'pGSAIHWWkrXEU9gQOmV_v5PJdY0n55RRHpmv8ho3cJ6mBzr-gUD-kv2LmF-nh0rVeFHgLRwzIbESQffLoRNrH34iPOuMD3bwuS3hEDat38Zt7K1SbbCrAtVdQEIGmM-cq0WOXjMG', 
+        'fulfills': None, 
+        'owners_before': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'metadata': {
+        'can_link': '920b3f685680bd3aeac4ad37e671665b8d184827b64f5cb6a3df914e1b591040'
+    }, 
+    'operation': 'CREATE', 
+    'outputs': [{
+        'amount': '1', 
+        'condition': {
+            'details': {
+                'public_key': '8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7', 
+                'type': 'ed25519-sha-256'
+            }, 
+            'uri': 'ni:///sha-256;HU8rLKZ7e3mhWl6L8G_Vm5PAkscmHmJ9LzthcVY4dcA?fpt=ed25519-sha-256&cost=131072'
+        }, 
+        'public_keys': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'version': '2.0'
 }
 =============================
-App Id: 18115799077d2455c7e18ef3139cc5f99b8b3b11b4a12b4b38b1e32331862da6
+App Id: c06d30009cf71102c7d468f39dc0cfd4f0fb5f9dfa3d9bec8ed1a42a80d2a976
 =============================
 Hospital Type details:
 {
-  'asset': {
-    'data': {
-      'link': '18115799077d2455c7e18ef3139cc5f99b8b3b11b4a12b4b38b1e32331862da6', 
-      'name': 'hospital', 
-      'ns': 'medical-app.hospital'
-    }
-  }, 
-  'id': '9d7b49b3fd70c169c042c2b871cf17746a45efe6fd327c70de12694dca6debe7', 
-  'inputs': [{
-    'fulfillment': 'pGSAICSNPXKe2icfK2RndHafdbPa6YXlBTSis69ddHK5FtWagUCZYfQGU5t8Nje--mO96x8szIp70hkmBbr4YzIJYdcXon-DLLfeCawgELC_viD_ynFKpAZrBlcTmuq4qtA76oQJ', 
-    'fulfills': None, 
-    'owners_before': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'metadata': {
-    'can_link': 'fce54f5051e5c91c7d9ba00ce08cba9619f44dcd97406e856e5cc53361edf3c2'
-  }, 
-  'operation': 'CREATE', 
-  'outputs': [{
-    'amount': '1', 
-    'condition': {
-      'details': {
-        'public_key': '3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq',
-        'type': 'ed25519-sha-256'
-      }, 
-      'uri': 'ni:///sha-256;SVsMJvDuKu017c7E_ffP8Ou8qdoUcUcd1Qk7Q5M2FDU?fpt=ed25519-sha-256&cost=131072'
+    'asset': {
+        'data': {
+            'link': 'c06d30009cf71102c7d468f39dc0cfd4f0fb5f9dfa3d9bec8ed1a42a80d2a976', 
+            'name': 'hospital', 
+            'ns': 'medical-app.hospital'
+        }
     }, 
-    'public_keys': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'version': '2.0'
+    'id': '0d2405eaf3ff039395b77aad2e67a6953d752f7497fa062253384d05dcdc52c9', 
+    'inputs': [{
+        'fulfillment': 'pGSAIHWWkrXEU9gQOmV_v5PJdY0n55RRHpmv8ho3cJ6mBzr-gUDjhQuPLiFvmeio4JpvVSQJHiBUAPRTX8PSLbjBv5pptSFdiNynPPBceG938OhFTqeLLoZUU-BkjOhCBVxqbd0I', 
+        'fulfills': None, 
+        'owners_before': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'metadata': {
+        'can_link': '920b3f685680bd3aeac4ad37e671665b8d184827b64f5cb6a3df914e1b591040'
+    }, 
+    'operation': 'CREATE', 
+    'outputs': [{
+        'amount': '1', 
+        'condition': {
+            'details': {
+                'public_key': '8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7', 
+                'type': 'ed25519-sha-256'
+            }, 
+            'uri': 'ni:///sha-256;HU8rLKZ7e3mhWl6L8G_Vm5PAkscmHmJ9LzthcVY4dcA?fpt=ed25519-sha-256&cost=131072'
+        }, 
+        'public_keys': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'version': '2.0'
 }
 =============================
-Hospital Type Id: 9d7b49b3fd70c169c042c2b871cf17746a45efe6fd327c70de12694dca6debe7
+Hospital Type Id: 0d2405eaf3ff039395b77aad2e67a6953d752f7497fa062253384d05dcdc52c9
 =============================
 Doctor type details:
 {
-  'asset': {
-    'data': {
-      'link': '18115799077d2455c7e18ef3139cc5f99b8b3b11b4a12b4b38b1e32331862da6', 
-      'name': 'doctors', 
-      'ns': 'medical-app.doctors'
-    }
-  }, 
-  'id': '76adea74f381f1df98ca49d92fa93587118a04b38ba47f7a1797300ccafdf878', 
-  'inputs': [{
-    'fulfillment': 'pGSAICSNPXKe2icfK2RndHafdbPa6YXlBTSis69ddHK5FtWagUBuK_aWRTgNgBcJr_jHyK8RVgaY--OGUmoaOLLBRDcz1-jCf2bsPVJXzGLurDbZ1rKw_j1LiIcY6UbuQ0dGmi8O', 
-    'fulfills': None, 
-    'owners_before': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'metadata': {
-    'can_link': '9d7b49b3fd70c169c042c2b871cf17746a45efe6fd327c70de12694dca6debe7'
-  }, 
-  'operation': 'CREATE', 
-  'outputs': [{
-    'amount': '1', 
-    'condition': {
-      'details': {
-        'public_key': '3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq', 
-        'type': 'ed25519-sha-256'
-      }, 
-      'uri': 'ni:///sha-256;SVsMJvDuKu017c7E_ffP8Ou8qdoUcUcd1Qk7Q5M2FDU?fpt=ed25519-sha-256&cost=131072'
+    'asset': {
+        'data': {
+            'link': 'c06d30009cf71102c7d468f39dc0cfd4f0fb5f9dfa3d9bec8ed1a42a80d2a976', 
+            'name': 'doctors', 
+            'ns': 'medical-app.doctors'
+        }
     }, 
-    'public_keys': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }],
-  'version': '2.0'
+    'id': '8e427170c1e25859a126e3d0370f2c6c167f688353843f24a18b62555b03bf0a', 
+    'inputs': [{
+        'fulfillment': 'pGSAIHWWkrXEU9gQOmV_v5PJdY0n55RRHpmv8ho3cJ6mBzr-gUCNeLF4irY61pA11igJ5DJMlaf2quZ3SbOmPil8uIimFxqgPwFB1HKGpAfP-W4KPJFJncmDzflQ70OiImss_jEA', 
+        'fulfills': None, 
+        'owners_before': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'metadata': {
+        'can_link': '0d2405eaf3ff039395b77aad2e67a6953d752f7497fa062253384d05dcdc52c9'
+    }, 
+    'operation': 'CREATE', 
+    'outputs': [{
+        'amount': '1', 
+        'condition': {
+            'details': {
+                'public_key': '8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7', 
+                'type': 'ed25519-sha-256'
+            }, 
+            'uri': 'ni:///sha-256;HU8rLKZ7e3mhWl6L8G_Vm5PAkscmHmJ9LzthcVY4dcA?fpt=ed25519-sha-256&cost=131072'
+        }, 
+        'public_keys': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'version': '2.0'
 }
 =============================
-Doctor type Id: 76adea74f381f1df98ca49d92fa93587118a04b38ba47f7a1797300ccafdf878
+Doctor type Id: 8e427170c1e25859a126e3d0370f2c6c167f688353843f24a18b62555b03bf0a
 =============================
 Medical Record type details:
 {
-  'asset': {
-    'data': {
-      'link': '18115799077d2455c7e18ef3139cc5f99b8b3b11b4a12b4b38b1e32331862da6', 
-      'name': 'med_rec', 
-      'ns': 'medical-app.med_rec'
-    }
-  }, 
-  'id': '8381dd43b201f7d13c937bcff8ddb93cc40048176607fc81ff5285390c348813', 
-  'inputs': [{
-    'fulfillment': 'pGSAICSNPXKe2icfK2RndHafdbPa6YXlBTSis69ddHK5FtWagUA7If8fP-mPthaH3rWHzjImrGVWEM8AmECRvBUDABwuott8AcK7gH0p2p-R59PykQFgZ67lirzUlrqe2-qSTXwC', 
-    'fulfills': None, 
-    'owners_before': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'metadata': {
-    'can_link': '76adea74f381f1df98ca49d92fa93587118a04b38ba47f7a1797300ccafdf878'
-  }, 
-  'operation': 'CREATE', 
-  'outputs': [{
-    'amount': '1', 
-    'condition': {
-      'details': {
-        'public_key': '3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq', 
-        'type': 'ed25519-sha-256'
-      }, 
-      'uri': 'ni:///sha-256;SVsMJvDuKu017c7E_ffP8Ou8qdoUcUcd1Qk7Q5M2FDU?fpt=ed25519-sha-256&cost=131072'
+    'asset': {
+        'data': {
+            'link': 'c06d30009cf71102c7d468f39dc0cfd4f0fb5f9dfa3d9bec8ed1a42a80d2a976', 
+            'name': 'med_rec', 
+            'ns': 'medical-app.med_rec'
+        }
     }, 
-    'public_keys': ['3TgbFWB4zDJ1rKHncKJhshE1CSQjpBYSZypdfxiCLxpq']
-  }], 
-  'version': '2.0'
+    'id': '7db82f9b9e88e457ddf87c0f9e45c12fcd186d303094e8524073bee372feeaf3', 
+    'inputs': [{
+        'fulfillment': 'pGSAIHWWkrXEU9gQOmV_v5PJdY0n55RRHpmv8ho3cJ6mBzr-gUC6Ez8EQxZtoxQsyjFZ94722VKDEfaRZ49XAxdgJo5DVOBlfhlzofbMxEuYsz3S39gqoRnfIIk7IfQpmm9jl2EF', 
+        'fulfills': None, 
+        'owners_before': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'metadata': {
+        'can_link': '8e427170c1e25859a126e3d0370f2c6c167f688353843f24a18b62555b03bf0a'
+    }, 
+    'operation': 'CREATE', 
+    'outputs': [{
+        'amount': '1', 
+        'condition': {
+            'details': {
+                'public_key': '8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7', 
+                'type': 'ed25519-sha-256'
+            }, 
+            'uri': 'ni:///sha-256;HU8rLKZ7e3mhWl6L8G_Vm5PAkscmHmJ9LzthcVY4dcA?fpt=ed25519-sha-256&cost=131072'
+        }, 
+        'public_keys': ['8v1sMknVFtFVCTE73SYJTKeGFK1gi6Pi5pg6NWv95fH7']
+    }], 
+    'version': '2.0'
 }
 =============================
-Medical Record type Id: 8381dd43b201f7d13c937bcff8ddb93cc40048176607fc81ff5285390c348813
+Medical Record type Id: 7db82f9b9e88e457ddf87c0f9e45c12fcd186d303094e8524073bee372feeaf3
 =============================
