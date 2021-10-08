@@ -1,1 +1,0 @@
-{"user_rbac_id": "6ea0a01b8d1065ffd7cc2b57d5c7f0c7359e7e136d605201231a090f55237c96", "name": "Wowo", "email": "wowo@gmail.com", "password": "wowo", "public_key": "9m5AccZcr1XFGTZakcLpqXuZdEi7ufmHCuaLiUSQ1uPL", "private_key": "x6qkU8RwDm67NYTGncZgHd217Mmnai1sWvYUpo7SgC6", "role": "doctor", "hospital": "RS Bersama Node Dua"}

@@ -1,1 +1,0 @@
-{"user_rbac_id": "d456e1e25292a217db3516ba0c35b1939cff6db54cc53b2ef961b1e72ce7094b", "name": "Momo", "email": "momo@gmail.com", "password": "momo", "public_key": "34bq8uuKzcGvYE89JDZQSzmkTayxPDPvoJSNaLPtbMty", "private_key": "EBsyQs8ypuLcP5NsCubJhxPZ6VqJDwAChPTyYD75xrAL", "role": "doctor", "hospital": "RS Bersama Node Empat"}
