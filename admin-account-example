@@ -1,0 +1,38 @@
+{
+  'asset': {
+    'data': {
+      'createdBy': '9Y8GVLWJvHxhWRGiC8tJcSrEraaFzWX1JDxv5pAxXosb', 
+      'keyword': 'UserAsset', 
+      'link': '920b3f685680bd3aeac4ad37e671665b8d184827b64f5cb6a3df914e1b591040', 
+      'ns': 'medical-app.admin', 
+      'type': 'admin'
+    }
+  }, 
+  'id': '07d61d180de7d2e5ea1a2a11ae5234550f37217c98e83d8c8250a04a8930a1c6', 
+  'inputs': [{
+    'fulfillment': 'pGSAIH7Wt6U9A6dhKvjmzQLOyk6VnZpo6x7cIp2sqb3V4NxugUDDw0fdtx9Y11hkng78eUVf8WDTUnw5XjHYgCwD8iSPb6EQavgoasEOtIc27I-2lJcJd8MeDEg7KqGXQZ-o0zIM', 
+    'fulfills': None, 
+    'owners_before': ['9Y8GVLWJvHxhWRGiC8tJcSrEraaFzWX1JDxv5pAxXosb']
+  }], 
+  'metadata': {
+    'event': 'User Added', 
+    'eventData': {
+      'userType': 'admin'
+    }, 
+    'publicKey': '9Y8GVLWJvHxhWRGiC8tJcSrEraaFzWX1JDxv5pAxXosb', 
+    'timestamp': '08/10/2021 20:36:39'
+  }, 
+  'operation': 'CREATE', 
+  'outputs': [{
+    'amount': '1', 
+    'condition': {
+      'details': {
+        'public_key': '9Y8GVLWJvHxhWRGiC8tJcSrEraaFzWX1JDxv5pAxXosb', 
+        'type': 'ed25519-sha-256'
+      }, 
+      'uri': 'ni:///sha-256;pXUlKi3ZL8Hh9pGMYLupcOsB-tIR1At4DtYND32Dibk?fpt=ed25519-sha-256&cost=131072'
+    }, 
+    'public_keys': ['9Y8GVLWJvHxhWRGiC8tJcSrEraaFzWX1JDxv5pAxXosb']
+  }], 
+  'version': '2.0'
+}
