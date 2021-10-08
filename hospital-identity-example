@@ -1,0 +1,37 @@
+{
+  'asset': {
+    'data': {
+      'link': 'c06d30009cf71102c7d468f39dc0cfd4f0fb5f9dfa3d9bec8ed1a42a80d2a976', 
+      'ns': 'medical-app.hospital'
+    }
+  }, 
+  'id': 'd550e9cd95dec3d79a9af7854e9350bcadb0836cb49dc36e402e8124d2feb535', 
+  'inputs': [{
+    'fulfillment': 'pGSAIH7Wt6U9A6dhKvjmzQLOyk6VnZpo6x7cIp2sqb3V4NxugUCc2iGT7At3K5BrKANL6rc_Qbw_GeCVQccFOFcWT8Zf-Jy7ZjrjU5PlKmGHjoxy40HgGNrCza53Gzs9Hgj9eNUB', 
+    'fulfills': None, 
+    'owners_before': ['9Y8GVLWJvHxhWRGiC8tJcSrEraaFzWX1JDxv5pAxXosb']
+  }], 
+  'metadata': {
+    'address': 'Jl. Veteran, Kota Malang, Jawa Timur', 
+    'name': 'RS Bersama Node Satu', 
+    'role': 'hospital', 
+    'tendermint': {
+      't_address': 'A4A6717522F51FEB67BC60EC8F4364E1E037A862', 
+      't_node_id': '38b998ff314eaa07e7e6b9eee0fc8482039533a4', 
+      't_pub_key': 'BDoN7ni5rPj+mwTXqqy/9ACcG/0NssqkHI5cZ2pmdRI='
+    }
+  }, 
+  'operation': 'CREATE', 
+  'outputs': [{
+    'amount': '1', 
+    'condition': {
+      'details': {
+        'public_key': '9Y8GVLWJvHxhWRGiC8tJcSrEraaFzWX1JDxv5pAxXosb', 
+        'type': 'ed25519-sha-256'
+      }, 
+      'uri': 'ni:///sha-256;pXUlKi3ZL8Hh9pGMYLupcOsB-tIR1At4DtYND32Dibk?fpt=ed25519-sha-256&cost=131072'
+    }, 
+    'public_keys': ['9Y8GVLWJvHxhWRGiC8tJcSrEraaFzWX1JDxv5pAxXosb']
+  }], 
+  'version': '2.0'
+}
