@@ -1,1 +1,0 @@
-{"user_rbac_id": "8264faea2026cc61c69abf43533d8675860eae7f24681eaa8f5e64d3e1db0915", "name": "Agatha", "email": "agatha@doc.com", "password": "agatha", "public_key": "7TsHHTEhgEwsGMQgSqX431pPXcUsbdCmfi1oEcPGVqy5", "private_key": "AyQXzBiFENRLpjxvhjUtka149hoKqCr6t5apTMyAcbor", "role": "doctor", "hospital": "RS Bersama Node Satu"}
