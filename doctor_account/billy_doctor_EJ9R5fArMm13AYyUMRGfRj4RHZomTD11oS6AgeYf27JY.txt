@@ -1,0 +1,1 @@
+{"user_rbac_id": "95a41cde41839151a387e845c454461e243d5ca3926ff4531691249ab8bd0259", "name": "billy", "email": "billy@rs2.com", "password": "billy", "public_key": "EJ9R5fArMm13AYyUMRGfRj4RHZomTD11oS6AgeYf27JY", "private_key": "GdtaLFDPVgFoBfhZkGadGp5YKNE2SZr9ffM1okV9Mi9s", "role": "doctor", "hospital": "RS Bersama Node Kedua"}

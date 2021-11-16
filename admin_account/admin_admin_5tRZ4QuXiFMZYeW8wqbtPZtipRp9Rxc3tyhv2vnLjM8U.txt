@@ -1,0 +1,1 @@
+{"name": "admin", "email": "admin@admin.com", "password": "admin", "public_key": "5tRZ4QuXiFMZYeW8wqbtPZtipRp9Rxc3tyhv2vnLjM8U", "private_key": "DVXvyYsFWPZrnSAtc8PzD4QpwCt4uHKNmh88i6QyLQde", "role": "admin", "user_rbac_id": "a69925345bdbd600681e0294b96a24eda68a1ea228e91b586890a303a9b099ce"}
